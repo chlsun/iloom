@@ -1896,4 +1896,14 @@ footer .footer-2 .footer-menu li{
     html{
         font-size: 8px;
     }
+
+    header .header2 input[type="search"]{
+        margin-left: 10px;
+    }
+
+    .container{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
 }
