@@ -1616,7 +1616,7 @@ footer .footer-2 .footer-menu li{
 
     footer .footer-2 .footer-menu .right-fm{
         margin-top: 30px;
-        margin-left: -40px;
+        margin-left: -35px;
     }
 
     .header2 .rnav .w1150{
@@ -1869,6 +1869,9 @@ footer .footer-2 .footer-menu li{
     .footer-2 .footer-menu .right-fm li{
         margin-left: 20px;
     }
+    footer .footer-2 .footer-menu .right-fm{
+        margin-left: -20px;
+    }
 
     .sec-2 .slide-view{
         margin-top: 5px;
@@ -1886,6 +1889,20 @@ footer .footer-2 .footer-menu li{
     }
     footer{
         margin-top: 30px;
+    }
+
+    .sec-2 .slide-view{
+        height: 300px;
+    }
+    
+    .sec-2 .slide-view .box .content{
+        width: 180px;
+    }
+    .sec-2 .content .img-box{
+        height: 168px;
+    }
+    .sec-2 .content .con-txt{
+        height: 112px;
     }
 }
 
@@ -1905,5 +1922,108 @@ footer .footer-2 .footer-menu li{
         width: 100%;
         padding-left: 30px;
         padding-right: 10px;
+    }
+
+    footer .footer-1 .footer-menu .menu{
+        padding-bottom: 10px;
+        padding-top: 10px;      
+    }
+
+    footer .footer-1 .footer-menu .menu .menu-head .h1{
+        margin-bottom: 0;
+    }
+
+    footer .footer-1 .footer-menu{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    footer .footer-1{
+        padding: 40px 40px;
+    }
+    footer .footer-2{
+        padding: 40px 40px;
+    }
+
+    .menu-btn{
+        left: 7px;
+        top: 30px;
+    }
+
+}
+
+@media (max-width:375px){
+    footer .footer-1{
+        padding: 40px 20px;
+    }
+    footer .footer-2{
+        padding: 40px 20px;
+    }
+
+    .sec-3 .menu-bar .menu{
+        font-size: 0.6rem;
+        height: 25px;
+        margin-right: 10px;
+        line-height: 25px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        padding: 0px 8px;
+        letter-spacing:-1px;
+    }
+
+    .sec-2 .slide-view{
+        height: 250px;
+    }
+    
+    .sec-2 .slide-view .box .content{
+        width: 144px;
+    }
+    .sec-2 .content .img-box{
+        height: 134.4px;
+    }
+    .sec-2 .content .con-txt{
+        height: 105.6px;
+        font-size: 0.6rem;
+        letter-spacing:-1px;
+        padding: 5px 0px;
+    }
+    .sec-2 .slide-view .box .content{
+        padding: 0px 5px;
+    }
+
+    .sec-2 .content .con-txt .bag{
+        width: 18px;
+        height: 18px;
+        
+    }
+    .sec-2 .content .con-txt .bag img{
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        top: 1px;
+        left: 1.5px;
+    }
+    
+    .sec-2 .content .heart1{
+        width: 15px;
+        height: 15px;
+        background: url(../img/heart-fill0.png) no-repeat center;
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    .sec-3 .cont .heart{
+        width: 20px;
+        height: 20px;    
+    }
+    .sec-3 .cont .heart .heart-logo{
+        width: 80%;
+        height: 80%;
+        top: 3px;
+        left: 2.5px;
+    }
+
+    footer .footer-1{
+        padding-bottom: 0px;
     }
 }
